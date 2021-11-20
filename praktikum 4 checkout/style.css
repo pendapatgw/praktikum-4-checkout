@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: "font-satu";
+  src: url(font/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "font-dua";
+  src: url(font/texgyreadventor-regular.otf);
+}
+@font-face {
+  font-family: "font-tiga";
+  src: url(font/OpenSans-VariableFont_wdth\wght.ttf);
+}
+/* buat header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  height: 5rem;
+  font-family: "font-dua";
+}
+
+.logo h2 {
+  font-family: "font-satu";
+  text-transform: capitalize;
+  font-weight: 600;
+  margin: 0 3rem;
+}
+.navbar {
+  margin-right: 30%;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  margin: 0 1rem;
+  list-style-type: none;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.cart {
+  font-size: 1rem;
+}
+.cart i,
+a {
+  margin: 0 0.5rem;
+  color: white;
+}
+.cart a {
+  text-decoration: none;
+}
+/* selesai disini */
+
+/* buat main */
+
+main {
+  margin: 2rem 5rem 0 5rem;
+  display: flex;
+  font-family: "font-dua";
+  border: 1px solid;
+}
+main .satu,
+.dua,
+.tiga,
+.empat {
+  border: 1px solid;
+  width: 50%;
+}
+/* buat satu */
+.satu {
+  display: flex;
+}
+.satu i {
+  font-size: 3rem;
+}
+
+.satu span p {
+  margin: 0 1rem;
+  border: 1px solid;
+}
+.satu span h2 {
+  font-family: "font-dua";
+  margin: 0.5rem 1rem;
+  border: 1px solid;
+}
+.satu span p,
+h2 {
+  font-family: "font-satu";
+  text-transform: capitalize;
+}
+/* selesai disini */
+/* buat dua */
+.dua .kata1 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+.dua .kata2 {
+  font-weight: 600;
+  font-size: 13pt;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+/* selesai disini */
+/* buat tiga */
+h2 {
+  margin-top: 1rem;
+}
+.tiga table {
+  margin-top: 20px;
+  width: 90%;
+}
+
+/* selesai disini */
+/* buat empat */
+
+.empat table {
+  margin-top: 20px;
+  width: 83%;
+}
+
+/* selesai disini */
+/* buat lima */
+.lima {
+  border: 1px solid;
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  height: 20rem;
+  background-color: gray;
+}
+.lima h4 {
+  text-align: left;
+  margin: 1rem;
+}
+.lima .columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+.lima .coupon {
+  text-align: left;
+  margin: 1rem 1rem;
+}
+.lima form input[type="text"] {
+  width: 70%;
+  height: 20px;
+}
+.lima form input[type="submit"] {
+  width: 20%;
+}
+
+/* selesai disini */
+/* buat footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid black;
+}
+.end-section1 {
+  width: 15%;
+  padding: 1rem 1rem;
+}
+.end-section1 ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.end-section1 ul li {
+  font-size: 35px;
+}
+
+.end-section1 ul li i {
+  color: #dddddd;
+}
+
+.end-section2 {
+  width: 25%;
+  padding-top: 1rem;
+}
+.end-section2 ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.end-section2 ul li a {
+  text-decoration: none;
+  color: var(--click);
+}
+
+.end-section2 ul li a:hover {
+  cursor: pointer;
+  color: var(--link);
+}
+
+.end-section3 {
+  padding-top: 1rem;
+  display: flex;
+}
+.end-section3 form {
+  width: 70%;
+  border: 3px solid black;
+  background: none;
+  height: 1.5rem;
+}
+.end-section3 form input[type="text"] {
+  border: none;
+  width: 60%;
+}
+.end-section3 form input[type="text"]::placeholder {
+  color: black;
+}
+
+.end-section3 form input[type="submit"] {
+  width: 5rem;
+  /* height: 1.5rem; */
+
+  border: none;
+}
+/* selesai disini */
+/* selesai disini */
